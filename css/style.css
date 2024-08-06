@@ -1,3 +1,8 @@
 *{
-    background-color: blueviolet;
+    background-color: rgb(166, 123, 206);
+}
+
+.navbar-nav{
+    flex: 1;
+    justify-content: center;
 }
