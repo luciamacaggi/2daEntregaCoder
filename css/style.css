@@ -24,6 +24,20 @@ header, h1, footer {
     font-style: normal;
     font-size: 30px;
 }
+
+h1{
+    color: #28c6ee;
+    text-align: center;
+    padding: 20px;
+}
+
+h2,h3{
+    color: #fd8d3b;
+}
+
+h3{
+    text-align: center;
+}
   
 .logo {
     padding: 10px;
@@ -77,15 +91,19 @@ nav, footer {
 #container-click{
     background-color: pink;
     justify-content: center;
+    justify-items: center;
     border: none;
-    width: 40vw;
-}
-
-#click-quiz{
+    width: 60vw;
+    border-radius: 20px;
     padding: 10px;
     color: #fe0485;
     font-family: "Poetsen One", sans-serif;
     text-align: center;
+    font-size: 1.5rem;
+}
+
+#click-quiz{
+    
 }
 
 footer {
