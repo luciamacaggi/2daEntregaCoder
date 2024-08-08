@@ -102,6 +102,29 @@ nav, footer {
     font-size: 1.5rem;
 }
 
+.custom-width{
+    width: 40vw;
+    max-width: 100%;
+}
+
+.accordion{
+    width: 60vw;
+    height: 70vh;
+}
+
+#text-about{
+    color: orangered;
+    background-color: #f0c3a2;
+    padding: 10px;
+    border-radius: 5px;
+    height: 70vh;
+    max-height: 100%;
+    font-size: 2rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
 footer{
     color: yellow;
     text-align: center;
