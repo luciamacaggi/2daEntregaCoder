@@ -128,4 +128,6 @@ nav, footer {
 footer{
     color: yellow;
     text-align: center;
+    padding: 1rem 0;
 }
+
