@@ -1,0 +1,23 @@
+header{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+        .logo{
+            padding: 10px;
+            color: yellow;
+        }
+        .navbar{
+            background-color: $color-verde;
+            .navbar-nav{
+                flex: 1;
+                justify-content: space-around;
+                .nav-link{
+                    color: #e466a7;
+                    &:hover{
+                        color: $color-nav-hover;
+                    }
+                }
+            }
+        }
+}

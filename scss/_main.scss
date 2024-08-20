@@ -1,0 +1,48 @@
+main{
+    padding: 20px;
+    flex: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    h1{
+        color: $color-h1;
+        text-align: center;
+        padding: 2px;
+    }
+    h2, h3{
+        color: $color-body;
+        h3{
+            text-align: center;
+        }
+    }
+    #carouselExampleCaptions{
+        width: 50%;
+        margin: 0 auto;
+        .carousel-inner{
+            .carousel-item{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: calc(100% - 20px);
+                    height: calc(100% - 20px);
+                    object-fit: cover;
+                    margin: 10px; 
+                }
+                .carousel-caption{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    #container-click{
+        background-color: pink;
+        justify-content: center;
+        justify-items: center;
+        border: none;
+        width: 60vw;
+        border-radius: 20px;
+        padding: 10px;
+        color: #fe0485;
+        font-family: "Poetsen One", sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+    }        
+}
