@@ -84,6 +84,36 @@ main #container-click {
   font-size: 1.5rem;
 }
 
+#text-about {
+  color: orangered;
+  background-color: #f0c3a2;
+  padding: 10px;
+  border-radius: 5px;
+  height: 70vh;
+  max-height: 100%;
+  font-size: 2rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.accordion {
+  width: 60vw;
+  height: 70vh;
+}
+.accordion .accordion-item {
+  background-color: #e466a7;
+  color: white;
+}
+.accordion .accordion-item .accordion-button {
+  background-color: #81e686;
+}
+
+.card-body {
+  background-color: #28c6ee;
+  color: white;
+}
+
 footer {
   background-color: #81e686;
   font-family: "Poetsen One", sans-serif;

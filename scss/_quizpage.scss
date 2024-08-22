@@ -1,0 +1,11 @@
+.accordion{
+    width: 60vw;
+    height: 70vh;
+    .accordion-item{
+        background-color: $color-nav;
+        color: white;
+        .accordion-button{
+            background-color: $color-verde;
+        }
+    }
+}
