@@ -1,16 +1,31 @@
 main{
     padding: 20px;
     flex: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 10px;
     h1{
-        color: $color-h1;
+        color: white;
+        background-color: $color-nav;
         text-align: center;
         padding: 2px;
     }
-    h2, h3{
-        color: $color-body;
-        h3{
-            text-align: center;
+    .cosito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        h2, h3{
+            width: 70vw;
+            align-items: center;
+            background-color: $color-h1;
+            padding: 5px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            h3{
+                text-align: center;
+            }
         }
     }
     #carouselExampleCaptions{
@@ -33,16 +48,20 @@ main{
         }
     }
     #container-click{
-        background-color: pink;
+        background-color: $color-nav;
         justify-content: center;
         justify-items: center;
         border: none;
         width: 60vw;
         border-radius: 20px;
         padding: 10px;
-        color: #fe0485;
+        color: $color-nav-hover;
         font-family: "Poetsen One", sans-serif;
         text-align: center;
         font-size: 1.5rem;
+        &:hover{
+            color: $color-about;
+            background-color: $color-bg-about;
+        }
     }        
 }

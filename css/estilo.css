@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  background-color: #b14df1;
+  background-color: #AFBF36;
 }
 
 .wrapper {
@@ -17,14 +17,14 @@ header {
   font-family: "Poetsen One", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 30px;
+  font-size: 35px;
 }
 header .logo {
   padding: 10px;
-  color: yellow;
+  color: #fd8d3b;
 }
 header .navbar {
-  background-color: #81e686;
+  background-color: #A63C63;
 }
 header .navbar .navbar-nav {
   flex: 1;
@@ -34,23 +34,38 @@ header .navbar .navbar-nav .nav-link {
   color: #e466a7;
 }
 header .navbar .navbar-nav .nav-link:hover {
-  color: #fe0485;
+  color: #96093d;
 }
 
 main {
   padding: 20px;
   flex: 1;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+  font-size: 10px;
 }
 main h1 {
-  color: #28c6ee;
+  color: white;
+  background-color: #e466a7;
   text-align: center;
   padding: 2px;
 }
-main h2, main h3 {
-  color: #fd8d3b;
+main .cosito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
-main h2 h3, main h3 h3 {
+main .cosito h2, main .cosito h3 {
+  width: 70vw;
+  align-items: center;
+  background-color: #fd8d3b;
+  padding: 5px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .cosito h2 h3, main .cosito h3 h3 {
   text-align: center;
 }
 main #carouselExampleCaptions {
@@ -71,17 +86,21 @@ main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
   margin-bottom: 0;
 }
 main #container-click {
-  background-color: pink;
+  background-color: #e466a7;
   justify-content: center;
   justify-items: center;
   border: none;
   width: 60vw;
   border-radius: 20px;
   padding: 10px;
-  color: #fe0485;
+  color: #96093d;
   font-family: "Poetsen One", sans-serif;
   text-align: center;
   font-size: 1.5rem;
+}
+main #container-click:hover {
+  color: #F27C38;
+  background-color: #f0c3a2;
 }
 
 #text-about {
@@ -95,32 +114,62 @@ main #container-click {
   max-width: 100%;
   box-sizing: border-box;
   overflow: auto;
+  font-weight: bold;
 }
 
 .accordion {
   width: 60vw;
   height: 70vh;
 }
+.accordion h2 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+  font-size: 30px;
+}
 .accordion .accordion-item {
   background-color: #e466a7;
   color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .accordion .accordion-item .accordion-button {
-  background-color: #81e686;
+  background-color: #A63C63;
+  font-size: 20px;
+  color: azure;
+}
+.accordion .accordion-item .accordion-button:hover {
+  color: #96093d;
+}
+.accordion .accordion-item .accordion-body {
+  font-size: 20px;
 }
 
 .card-body {
-  background-color: #28c6ee;
+  background-color: #fd8d3b;
+  color: white;
+  color: #96093d;
+}
+.card-body .card-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
   color: white;
 }
 
+.container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container .form-label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 footer {
-  background-color: #81e686;
+  background-color: #A63C63;
   font-family: "Poetsen One", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 30px;
-  color: yellow;
+  color: #fd8d3b;
   text-align: center;
   padding: 1rem 0;
 }

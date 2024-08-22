@@ -1,11 +1,26 @@
 .accordion{
     width: 60vw;
     height: 70vh;
+    h2{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 50;
+        font-style: normal;
+        font-size: 30px;
+    }
     .accordion-item{
         background-color: $color-nav;
         color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         .accordion-button{
             background-color: $color-verde;
+            font-size: 20px;
+            color: azure;
+            &:hover{
+                color: $color-nav-hover;
+            }
+        }
+        .accordion-body{
+            font-size: 20px;
         }
     }
 }
