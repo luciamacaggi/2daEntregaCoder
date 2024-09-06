@@ -45,19 +45,22 @@ main {
   font-style: normal;
   font-size: 10px;
 }
-main h1 {
-  color: white;
-  background-color: #e466a7;
-  text-align: center;
-  padding: 2px;
-}
-main .cosito {
+main .secondary-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px;
 }
-main .cosito h2, main .cosito h3 {
+main .secondary-text h1 {
+  color: white;
+  background-color: #e466a7;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2px;
+  width: 50vw;
+}
+main .secondary-text h2, main .secondary-text h3 {
   width: 70vw;
   align-items: center;
   background-color: #fd8d3b;
@@ -65,7 +68,7 @@ main .cosito h2, main .cosito h3 {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-main .cosito h2 h3, main .cosito h3 h3 {
+main .secondary-text h2 h3, main .secondary-text h3 h3 {
   text-align: center;
 }
 main #carouselExampleCaptions {
@@ -126,6 +129,7 @@ main #container-click:hover {
   font-weight: 50;
   font-style: normal;
   font-size: 30px;
+  color: #F27C38;
 }
 .accordion .accordion-item {
   background-color: #e466a7;
