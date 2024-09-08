@@ -5,3 +5,12 @@
         font-weight: bold;
     }
 }
+.btn{
+    color:$color-bg-about;
+    background-color: $color-nav;
+    border-color: $color-nav-hover;
+    &:hover{
+        background-color: $color-about;
+        border-color: black;
+    }
+}

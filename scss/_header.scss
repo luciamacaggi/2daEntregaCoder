@@ -13,9 +13,9 @@ header{
                 flex: 1;
                 justify-content: space-around;
                 .nav-link{
-                    color: #e466a7;
+                    color: $color-nav;
                     &:hover{
-                        color: $color-nav-hover;
+                        color: $color-about;
                     }
                 }
             }

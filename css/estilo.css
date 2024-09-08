@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  background-color: #AFBF36;
+  background-color: #a5be00;
 }
 
 .wrapper {
@@ -21,20 +21,20 @@ header {
 }
 header .logo {
   padding: 10px;
-  color: #fd8d3b;
+  color: #6a994e;
 }
 header .navbar {
-  background-color: #A63C63;
+  background-color: #ccff33;
 }
 header .navbar .navbar-nav {
   flex: 1;
   justify-content: space-around;
 }
 header .navbar .navbar-nav .nav-link {
-  color: #e466a7;
+  color: #38b000;
 }
 header .navbar .navbar-nav .nav-link:hover {
-  color: #96093d;
+  color: #008000;
 }
 
 main {
@@ -53,7 +53,7 @@ main .secondary-text {
 }
 main .secondary-text h1 {
   color: white;
-  background-color: #e466a7;
+  background-color: #38b000;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -63,7 +63,7 @@ main .secondary-text h1 {
 main .secondary-text h2, main .secondary-text h3 {
   width: 70vw;
   align-items: center;
-  background-color: #fd8d3b;
+  background-color: #6a994e;
   padding: 5px;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -89,26 +89,26 @@ main #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
   margin-bottom: 0;
 }
 main #container-click {
-  background-color: #e466a7;
+  background-color: #38b000;
   justify-content: center;
   justify-items: center;
   border: none;
   width: 60vw;
   border-radius: 20px;
   padding: 10px;
-  color: #96093d;
+  color: #ccff33;
   font-family: "Poetsen One", sans-serif;
   text-align: center;
   font-size: 1.5rem;
 }
 main #container-click:hover {
-  color: #F27C38;
-  background-color: #f0c3a2;
+  color: #008000;
+  background-color: #f2e8cf;
 }
 
 #text-about {
-  color: orangered;
-  background-color: #f0c3a2;
+  color: #38b000;
+  background-color: #f2e8cf;
   padding: 10px;
   border-radius: 5px;
   height: 70vh;
@@ -129,29 +129,31 @@ main #container-click:hover {
   font-weight: 50;
   font-style: normal;
   font-size: 30px;
-  color: #F27C38;
+  background-color: #38b000;
+  color: #f2e8cf;
+  padding: 10px;
 }
 .accordion .accordion-item {
-  background-color: #e466a7;
-  color: white;
+  background-color: #38b000;
+  color: #f2e8cf;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .accordion .accordion-item .accordion-button {
-  background-color: #A63C63;
+  background-color: #ccff33;
   font-size: 20px;
-  color: azure;
+  color: #008000;
 }
 .accordion .accordion-item .accordion-button:hover {
-  color: #96093d;
+  color: #ccff33;
 }
 .accordion .accordion-item .accordion-body {
   font-size: 20px;
 }
 
 .card-body {
-  background-color: #fd8d3b;
+  background-color: #6a994e;
   color: white;
-  color: #96093d;
+  color: #ccff33;
 }
 .card-body .card-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -167,13 +169,23 @@ main #container-click:hover {
   font-weight: bold;
 }
 
+.btn {
+  color: #f2e8cf;
+  background-color: #38b000;
+  border-color: #ccff33;
+}
+.btn:hover {
+  background-color: #008000;
+  border-color: black;
+}
+
 footer {
-  background-color: #A63C63;
+  background-color: #ccff33;
   font-family: "Poetsen One", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 30px;
-  color: #fd8d3b;
+  color: #6a994e;
   text-align: center;
   padding: 1rem 0;
 }
